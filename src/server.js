@@ -61,7 +61,7 @@ const weekdays = [
     //funções:
 
 function getSubject(subjectNumber) {
-    const array = +subjectNumber - 1
+    const position = +subjectNumber - 1
     return subjects[position]
 }
 
